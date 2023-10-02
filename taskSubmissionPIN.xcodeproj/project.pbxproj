@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		D242F83E2ABB47080069E58F /* taskSubmissionPINApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242F83D2ABB47080069E58F /* taskSubmissionPINApp.swift */; };
-		D242F8402ABB47080069E58F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242F83F2ABB47080069E58F /* ContentView.swift */; };
+		D242F8402ABB47080069E58F /* CarbonCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242F83F2ABB47080069E58F /* CarbonCounterView.swift */; };
 		D242F8422ABB470B0069E58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D242F8412ABB470B0069E58F /* Assets.xcassets */; };
 		D242F8452ABB470B0069E58F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D242F8442ABB470B0069E58F /* Preview Assets.xcassets */; };
+		D242F84C2ABB4A000069E58F /* CarbonEmissionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242F84B2ABB4A000069E58F /* CarbonEmissionsDetailView.swift */; };
+		D242F84E2ABB4E060069E58F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D242F84D2ABB4E060069E58F /* Launch Screen.storyboard */; };
+		D242F8502ABB50F10069E58F /* UberPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242F84F2ABB50F10069E58F /* UberPageView.swift */; };
+		D242F8522ABB55910069E58F /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242F8512ABB55910069E58F /* HomePageView.swift */; };
+		D242F8542ABB55BF0069E58F /* DonationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242F8532ABB55BF0069E58F /* DonationView.swift */; };
+		D242F8562ABB69940069E58F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D242F8552ABB69940069E58F /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D242F83A2ABB47080069E58F /* taskSubmissionPIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskSubmissionPIN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D242F83D2ABB47080069E58F /* taskSubmissionPINApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskSubmissionPINApp.swift; sourceTree = "<group>"; };
-		D242F83F2ABB47080069E58F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D242F83F2ABB47080069E58F /* CarbonCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonCounterView.swift; sourceTree = "<group>"; };
 		D242F8412ABB470B0069E58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D242F8442ABB470B0069E58F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D242F84B2ABB4A000069E58F /* CarbonEmissionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonEmissionsDetailView.swift; sourceTree = "<group>"; };
+		D242F84D2ABB4E060069E58F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D242F84F2ABB50F10069E58F /* UberPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberPageView.swift; sourceTree = "<group>"; };
+		D242F8512ABB55910069E58F /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		D242F8532ABB55BF0069E58F /* DonationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationView.swift; sourceTree = "<group>"; };
+		D242F8552ABB69940069E58F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,14 @@
 			isa = PBXGroup;
 			children = (
 				D242F83D2ABB47080069E58F /* taskSubmissionPINApp.swift */,
-				D242F83F2ABB47080069E58F /* ContentView.swift */,
+				D242F8512ABB55910069E58F /* HomePageView.swift */,
+				D242F8552ABB69940069E58F /* ContentView.swift */,
+				D242F83F2ABB47080069E58F /* CarbonCounterView.swift */,
+				D242F8532ABB55BF0069E58F /* DonationView.swift */,
+				D242F84B2ABB4A000069E58F /* CarbonEmissionsDetailView.swift */,
+				D242F84F2ABB50F10069E58F /* UberPageView.swift */,
 				D242F8412ABB470B0069E58F /* Assets.xcassets */,
+				D242F84D2ABB4E060069E58F /* Launch Screen.storyboard */,
 				D242F8432ABB470B0069E58F /* Preview Content */,
 			);
 			path = taskSubmissionPIN;
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D242F84E2ABB4E060069E58F /* Launch Screen.storyboard in Resources */,
 				D242F8452ABB470B0069E58F /* Preview Assets.xcassets in Resources */,
 				D242F8422ABB470B0069E58F /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D242F8402ABB47080069E58F /* ContentView.swift in Sources */,
+				D242F8502ABB50F10069E58F /* UberPageView.swift in Sources */,
+				D242F8522ABB55910069E58F /* HomePageView.swift in Sources */,
+				D242F8562ABB69940069E58F /* ContentView.swift in Sources */,
+				D242F8542ABB55BF0069E58F /* DonationView.swift in Sources */,
+				D242F8402ABB47080069E58F /* CarbonCounterView.swift in Sources */,
+				D242F84C2ABB4A000069E58F /* CarbonEmissionsDetailView.swift in Sources */,
 				D242F83E2ABB47080069E58F /* taskSubmissionPINApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
